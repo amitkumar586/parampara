@@ -11,11 +11,12 @@ class MyAppbarTheme {
       scrolledUnderElevation: 0,
       backgroundColor: Colors.transparent,
       surfaceTintColor: Colors.transparent,
-      iconTheme: IconThemeData(
+      iconTheme: const IconThemeData(
         color: AppColors.blackColor,
         size: 24,
       ),
-      actionsIconTheme: IconThemeData(color: AppColors.blackColor, size: 24),
+      actionsIconTheme:
+          const IconThemeData(color: AppColors.blackColor, size: 24),
       titleTextStyle: BaseStyle.black18fw600);
   static final darkAppbarTheme = AppBarTheme(
       elevation: 0,
@@ -23,10 +24,11 @@ class MyAppbarTheme {
       scrolledUnderElevation: 0,
       backgroundColor: Colors.transparent,
       surfaceTintColor: Colors.transparent,
-      iconTheme: IconThemeData(
+      iconTheme: const IconThemeData(
         color: AppColors.blackColor,
         size: 24,
       ),
-      actionsIconTheme: IconThemeData(color: AppColors.whiteColor, size: 24),
+      actionsIconTheme:
+          const IconThemeData(color: AppColors.whiteColor, size: 24),
       titleTextStyle: BaseStyle.white16fw600);
 }

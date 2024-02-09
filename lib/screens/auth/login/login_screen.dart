@@ -45,6 +45,7 @@ class LoginScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     LoginSignupForm(
+                        obscureText: false,
                         prefixIcon: const Icon(Iconsax.direct_right),
                         labelText: GlobalTexts.email,
                         controller: emailcontroller),
@@ -53,6 +54,7 @@ class LoginScreen extends StatelessWidget {
                       height: AppSizes.spaceBwSections,
                     ),
                     LoginSignupForm(
+                        obscureText: false,
                         prefixIcon: const Icon(Iconsax.direct_right),
                         labelText: GlobalTexts.passward,
                         controller: passwardcontroller,

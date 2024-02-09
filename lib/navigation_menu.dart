@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import 'controllers/bottom_navigation_controller.dart';
+import 'controllers/bottom navigationbar/bottom_navigation_controller.dart';
+import 'utils/constants/app_colors.dart';
 import 'utils/constants/appsizes.dart';
 
 class NavigationMenu extends StatelessWidget {
@@ -15,8 +16,9 @@ class NavigationMenu extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: Obx(
         () => NavigationBar(
+          backgroundColor: AppColors.whiteColor,
           height: 60,
-          elevation: 0,
+          elevation: 1,
           selectedIndex: controller.selectIndex.value,
           onDestinationSelected: (value) {
             controller.selectIndex.value = value;

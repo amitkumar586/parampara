@@ -6,7 +6,7 @@ import 'package:parampara_collection/utils/theme/custonthemes/outlinebuttontheme
 import 'package:parampara_collection/utils/theme/custonthemes/text_theme.dart';
 import 'package:parampara_collection/utils/theme/custonthemes/textformfield_theme.dart';
 
-import 'custonthemes/elevatetButton_theme.dart';
+import 'custonthemes/elevatet_button_theme.dart';
 
 class AppTheme {
   AppTheme._();

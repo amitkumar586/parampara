@@ -20,6 +20,7 @@ class DeviceUtility {
 
   static bool isPortraitOrientaion(BuildContext context) {
     final viewInsets = View.of(context).viewInsets;
+    // ignore: unrelated_type_equality_checks
     return viewInsets != 0;
   }
 

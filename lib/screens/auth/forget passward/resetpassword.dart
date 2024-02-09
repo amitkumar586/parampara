@@ -13,7 +13,7 @@ class ResetPassword extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = DeviceUtility.isDarkMode(context);
+    // final dark = DeviceUtility.isDarkMode(context);
 
     return Scaffold(
       appBar: AppBar(

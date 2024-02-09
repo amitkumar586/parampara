@@ -38,13 +38,20 @@ dependencies:
   iconsax: ^0.0.8
   get: ^4.6.6
   google_fonts: ^6.1.0
-  # http: ^1.2.0
   intl: ^0.19.0
   logger: ^2.0.2+1
+  flutter_native_splash: ^2.3.10
   url_launcher: ^6.2.4
   get_storage: ^2.1.1
   lottie: ^3.0.0
   smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  firebase_core: ^2.25.3
+  connectivity_plus: ^5.0.2
+  http: ^1.2.0
+  firebase_authentication: ^0.0.25
+  cloud_firestore: ^4.15.4
+
 
 
 
@@ -59,7 +66,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -75,7 +82,10 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/animations/
     - assets/images/onboarding/
+    - assets/images/banner/
+    - assets/images/products/
     - assets/images/socialmedia/
     - assets/images/splash/
     - assets/icons/brands/

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:parampara_collection/bindings/general_bindings.dart';
 import 'screens/splash screen/splash.dart';
 import 'utils/theme/theme.dart';
 
@@ -14,7 +15,16 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      // home: const ResetPassword(),
+      initialBinding: GeneralBindings(),
+      // home: const Scaffold(
+      //   backgroundColor: AppColors.primary,
+      //   body: Center(
+      //     child: CircularProgressIndicator(
+      //       color: AppColors.whiteColor,
+      //     ),
+      //   ),
+      // ),
+
       home: const SplashScreen(),
     );
   }

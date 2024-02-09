@@ -16,7 +16,7 @@ class ForgetPassword extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final dark = DeviceUtility.isDarkMode(context);
-    TextEditingController emailcontroller = TextEditingController();
+    // TextEditingController emailcontroller = TextEditingController();
     TextEditingController passwardcontroller = TextEditingController();
     return Scaffold(
         appBar: AppBar(
@@ -47,6 +47,7 @@ class ForgetPassword extends StatelessWidget {
                     child: Column(
                       children: [
                         LoginSignupForm(
+                            obscureText: false,
                             prefixIcon: const Icon(Iconsax.direct),
                             labelText: GlobalTexts.email,
                             controller: passwardcontroller,

@@ -17,10 +17,10 @@ class MyTextFormFieldTheme {
         color: AppColors.blackColor.withOpacity(0.8)),
     border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(14),
-        borderSide: BorderSide(width: 1, color: AppColors.greyColor)),
+        borderSide: const BorderSide(width: 1, color: AppColors.greyColor)),
     enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(14),
-        borderSide: BorderSide(width: 1, color: AppColors.greyColor)),
+        borderSide: const BorderSide(width: 1, color: AppColors.greyColor)),
     focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(width: 1, color: Colors.black12),
@@ -45,10 +45,10 @@ class MyTextFormFieldTheme {
         color: AppColors.whiteColor.withOpacity(0.8)),
     border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(14),
-        borderSide: BorderSide(width: 1, color: AppColors.greyColor)),
+        borderSide: const BorderSide(width: 1, color: AppColors.greyColor)),
     enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(14),
-        borderSide: BorderSide(width: 1, color: AppColors.greyColor)),
+        borderSide: const BorderSide(width: 1, color: AppColors.greyColor)),
     focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(width: 1, color: Colors.white12),

@@ -9,9 +9,12 @@ class ImageString {
   static const String facebook = 'assets/images/socialmedia/facebook.png';
   static const String apple = 'assets/images/socialmedia/apple.png';
   static const String appLogo = 'assets/logos/plogo.png';
+  static const String banner1 = 'assets/images/banner/banner1.jpg';
+  static const String product1 = 'assets/images/products/product1.jpg';
   static const String mailverify =
       'assets/images/mailverification/emailverification.png';
   static const String successImage =
       'assets/images/mailverification/success.png';
   static const String resetPass = 'assets/images/resetpass/reset_password.png';
+  static const String dockeImage = 'assets/animations/docker.json';
 }

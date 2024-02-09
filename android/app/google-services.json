@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1029336342311",
+    "project_id": "parampara-5cc1c",
+    "storage_bucket": "parampara-5cc1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029336342311:android:7a949870b0594d541b1302",
+        "android_client_info": {
+          "package_name": "com.example.parampara_collection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI4byXBVRK9Jv2KONd582I8RBr8qDnm1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

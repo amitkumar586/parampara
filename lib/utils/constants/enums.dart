@@ -2,7 +2,7 @@ enum TextSizes { small, medium, large }
 
 enum OrderStatus { processing, shipping, delivered }
 
-enum paymentMethods {
+enum PaymentMethods {
   paypal,
   googlePay,
   mastercard,

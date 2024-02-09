@@ -3,10 +3,10 @@ import '../../../utils/constants/appsizes.dart';
 
 class LogoAndSubTitle extends StatelessWidget {
   final String? title;
-  String? subTitle;
-  String? image;
-  bool dark;
-  LogoAndSubTitle({
+  final String? subTitle;
+  final String? image;
+  final bool dark;
+  const LogoAndSubTitle({
     super.key,
     this.subTitle,
     required this.dark,

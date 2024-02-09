@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 
 class LoginSignupForm extends StatelessWidget {
   final Icon prefixIcon;
-  Icon? suffixIcon;
+  final Widget? suffixIcon;
   final String labelText;
   final TextEditingController controller;
   final String? Function(String?)? onchanged;
   final String? Function(String?)? validator;
   final bool isObscure;
   final TextInputType? keyboardType;
+  final bool obscureText;
 
-  LoginSignupForm({
+  const LoginSignupForm({
     super.key,
     this.suffixIcon,
     required this.prefixIcon,
@@ -20,12 +21,14 @@ class LoginSignupForm extends StatelessWidget {
     this.validator,
     this.isObscure = false,
     this.keyboardType,
+    required this.obscureText,
   });
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       child: TextFormField(
+        obscureText: obscureText,
         expands: false,
         onChanged: onchanged,
         controller: controller,
@@ -33,6 +36,7 @@ class LoginSignupForm extends StatelessWidget {
         keyboardType: keyboardType,
         decoration: InputDecoration(
           prefixIcon: prefixIcon,
+          suffixIcon: suffixIcon,
           labelText: labelText,
         ),
       ),

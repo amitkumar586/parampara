@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 5), () {
+    Timer(const Duration(seconds: 3), () {
       Get.offAll(() => const OnboardingScreen());
     });
   }
@@ -33,6 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
         elevation: 0,
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Expanded(
             child: Container(
@@ -43,13 +44,15 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
           ),
-          Container(
-            width: Get.width,
-            margin: const EdgeInsets.only(bottom: 20),
-            alignment: Alignment.center,
-            child: Text(
-              "Powered By Parampara ",
-              style: BaseStyle.white16fw500,
+          Center(
+            child: Container(
+              width: Get.width,
+              margin: const EdgeInsets.only(bottom: 20),
+              alignment: Alignment.center,
+              child: Text(
+                "Powered By Parampara ",
+                style: BaseStyle.white16fw500,
+              ),
             ),
           ),
         ],

@@ -25,6 +25,7 @@ class GlobalTexts {
       "Don't worry sometimespeople can forget too, enter your email and will send you a password reset link";
 
   static const String email = "E-mail";
+  static const String searchinstore = "Search in store";
   static const String passward = "Passward";
   static const String phoneNumber = "Phone Number";
   static const String forgetPass = "Forget Password";
@@ -55,4 +56,9 @@ class GlobalTexts {
   static const String successTitle = "Your account successfully created!";
   static const String successSubTitle =
       "Welcome to your Unlimited Shopping Destination, Your Account is created , Unleash the joy at seemless Online shopping";
+// Home
+
+  static const String homeAppBarTitle = " Good day for shopping";
+
+  static const String homeAppBarSubTitle = "Amit Kumar";
 }

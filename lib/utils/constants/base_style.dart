@@ -93,4 +93,12 @@ class BaseStyle {
       fontSize: 12.0,
       fontWeight: FontWeight.w600,
       color: AppColors.whiteColor.withOpacity(0.5));
+
+  static final white11fw500opacity = GoogleFonts.poppins(
+      fontSize: 11.0,
+      fontWeight: FontWeight.w500,
+      color: AppColors.whiteColor.withOpacity(0.5));
+
+  static final white10fw500 = GoogleFonts.poppins(
+      fontSize: 10.0, fontWeight: FontWeight.w500, color: AppColors.whiteColor);
 }
